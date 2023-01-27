@@ -1,621 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!--<meta charset="UTF-8">-->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+    <!--<meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title> coffee organization </title>
+    
 
     <!-- font awesome link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" alt="ne">
 
     <!-- css link  -->
-    <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+   
 </head>
 <body>
-<!-- header -->
-
-<header class="header">
-
-    <a href="#" class="logo"></a>
-        <img src="images/img34.jpg.png" alt="log">
-
-    <nav class="navbar">
-        <a href="#home">
-            <font face="arial" size="4">
-            home
-            </font>
-        </a>
-        <a href="#about">
-            <font face="arial" size="4">
-            about
-            </font>
-        </a>
-        <a href="#menu">
-            <font face="arial" size="4">
-            menu
-            </font>
-        </a>
-        <a href="#products">
-            <font face="arial" size="4">
-                products
-            </font>         
-        </a>
-        <a href="#review">
-            <font face="arial" size="4">
-            review
-            </font>
-        </a>
-        <a href="#contact">
-            <font face="arial" size="4">
-            contact
-            </font>
-        </a>
-        <a href="#blogs">
-            <font face="arial" size="4">
-            blogs
-            </font>
-        </a>
-    </nav>
-
-    <div class="icon">
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
-        <div class="fas fa-bars" id="menu-btn"></div>
+   
+   <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><span class="text-warning"><img width='60px' src="images/img34.jpg.png"></a> 
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#menu">menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#products">products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#review">review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blogs">blogs</a>
+            </li>
+        </ul>
     </div>
-
-    <div class="search-form">
-        <input type="search" id="search-box" placeholder="search what you want here...">
-        <label for="search-box" class="fas fa-search"></label>
-    </div>
-    <!---->
-    <div class="cart-items-container">
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/img30.jpg" alt="">
-            <div class="content">
-                <h3>cart item 01</h3>
-                <div class="price">500 birr</div>
-            </div>
-        </div>
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/img31.jpg" alt="mi">
-            <div class="content">
-                <h3>cart item 02</h3>
-                <div class="price">400 birr</div>
-            </div>
-        </div>
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/img32.jpg" alt="lo">
-            <div class="content">
-                <h3>cart item 03</h3>
-                <div class="price">300 birr</div>
-            </div>
-        </div>
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/img33.jpg" alt="we">
-            <div class="content">
-                <h3>cart item 04</h3>
-                <div class="price">200 birr</div>
-            </div>
-        </div>
-        <a href="#" class="btn">checkout now</a>
-    </div>
-
-</header>
-
-
+</div>
+</nav>
 
 <!-- home -->
-   
-                
-           
-       
-                <section class="home" id="home">
-
-                    <div class="page">
-                        <h3>
-                            
-                                <font face="arial">
-                                    ETHIOPIAN COFFEE
-
-                                </font>
-                            
-                            </h3>
-                            <font color="red" face="arial">
-                           <p> For Hundreds of years, Ethiopia has provided some of the world's best
-                            reviewed single origin premium coffee beans.</p>
-                            </font> <br>
-                        <a href="#" class="btn">
-                            <font face="arial" size="4">
-                            get now
-                            </font>
-
-                        </a>
+<section class="home" id="home">
+    <h2 class="text-center">home</h2>
+    <div class="container bg-light">
+        <div class="row px-2">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 pt-5">
+                <div class="carousel slide pt-5" data-bs-ride="carousel" id="carouselExampleControls">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="animated fadeInDown" style="animation-delay: 1s">ETHIOPIAN <span class="text-info">COFFEE</span></h1>
+                            <p> For Hundreds of years, Ethiopia has provided some of the world's best
+                                reviewed single origin premium coffee beans.</p>
+                            <button class="btn btn-info text-white" href="#" type="button">Learn More</button> 
+                        </div>
+                        
+                        
                     </div>
-                    
-
-                </section>
-               
-               
-            
-
-
-<!-- about -->
-
-<section class="about" id="about">
-
-    <h1 class="heading"> <span>about</span> us </h1>
-
-    <div class="about_coffee">
-
-        <div class="image">
-            <img src="images/img.jpg" alt="hy">
-          
-        </div>
-
-        <div class="page">
-            <h3>
-                
-                obout coffee
-                
-                
-            </h3>
-            <p>coffee from ethiopia is renowed for its vibrat fruity and flovery characteristics.
-                 they often contain complex teste nuances, alight to medium body, and stronger acidity.
-            </p>
-            <p>The processing technuiqe significantly influences the coffee's final flavor...</p>
-            <a href="#" class="btn"> more</a>
-        </div>
-
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12"><br><br><br><img src="images/img33.jpg" alt="we">
     </div>
-
 </section>
-
-
-
+   
+<br>
+<!--about-->
+                <section class="about section-padding" id="about">
+                    <h2 class="text-center">about us</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-12 bg-black">
+                                <div class="about-img"><img alt="" class="img-fluid" src="images/img.jpg"></div>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-12 ps-lg-5">
+                                <div class="about-text bg-light" >
+                                    <h2>We Provide the Best Quality<br>
+                                    Services Ever</h2>
+                                    <p>coffee from ethiopia is renowed for its vibrat fruity and flovery characteristics.
+                                        they often contain complex teste nuances, alight to medium body, and stronger acidity.
+                                   </p>
+                                   <p>The processing technuiqe significantly influences the coffee's final flavor...</p>
+                           <a class="btn btn-warning" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
 <!-- menu -->
 
 <section class="menu" id="menu">
 
-    <h1 class="heading"> <span>menu</span> </h1>
-<!---->
-
-    div class="">
-    </div>
-    <table >
-   
-    <tr>
-    <th>#</th>
-    <th>list</th>
-    <th>needs</th>
-    <th>exchange </th>
+    <h1 class="heading text-center"> <span>menu</span> </h1>
+    <table class="table table-dark table-hover" >
+        <tr >
+                <th>MENU</th>
+                <th>NEEDS</th>
+                <th>FOREIGN EXCHANGE</th>
+        </tr>
+        <tr class="table-row" >
+                <td >yirga cheffe</td>
+                <td >30%</td>
+                <td >40%</td>
+        </tr>
+        <tr class="table-row">
+                <td >harar</td>
+                <td >15%</td>
+                <td >11%</td>
+        </tr>
+        <tr class="table-row">
+                <td >limu</td>
+                <td >20%</td>
+                <td >24%</td>
+        </tr>
+        <tr class="table-row">
+                <td>guji</td>
+                <td >13%</td>
+                <td >10%</td>
+        </tr>
+        <tr class="table-row">
+            <td>jenika</td>
+            <td >5%</td>
+            <td >7%</td>
     </tr>
-     <tr>
-    <td>1</td>
-    <td>yirga cheffe</td>
-    <td>30%</td>
-    <td>40%</td>
-    </tr>
-    <tr>
-    <td>2</td>
-    <td>harar</td>
-    <td>15%</td>
-    <td>11%</td>
-    </tr>
-    <tr>
-    <td>3</td>
-    <td>limu</td>
-    <td>20%</td>
-    <td>24%</td>
-    </tr>
-    <tr>
-    <td>4</td>
-    <td>guji</td>
-    <td>13%</td>
-    <td>10%</td>
-    </tr>
-    <tr>
-    <td>5</td>
-    <td>jenika</td>
-    <td>5%</td>
-    <td>7%</td>
-    </tr>
-    <tr>
-    <td>6</td>
-    <td>sidamo</td>
-    <td>17%</td>
-    <td>8%</td>
+    <tr class="table-row">
+            <td>sidamo</td>
+            <td >17%</td>
+            <td >8%</td>
     </tr>
     </table>
-    </body>
+
+    <section class="portfolio section-padding bg-light" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our menus</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="img/project-1.jpg"></div>
+							<h3 class="card-title">yirga cheffe</h3>
+							<p class="lead"><img src="images/img6.jpg" alt="me"></p><button class="btn bg-warning text-dark" href="#">Add to cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="img/project-2.jpg"></div>
+							<h3 class="card-title">harar</h3>
+							<p class="lead"><img src="images/img8.jpg" alt="yu"></p><button class="btn bg-warning text-dark">Add to cart</button>
+						</div>
+					</div>
+				</div>
+        <div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="img/project-2.jpg"></div>
+							<h3 class="card-title">limu</h3>
+							<p class="lead">  <img src="images/img8.jpg" alt="ji"></p><button class="btn bg-warning text-dark">Add to cart</button>
+						</div>
+					</div>
+				</div><br>
+        <div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="img/project-2.jpg"></div>
+							<h3 class="card-title">Guji</h3>
+							<p class="lead"> <img src="images/img6.jpg" alt="er"></p><video  controls 
+                            src="video/video.mp4" alt="po"></video><br><button class="btn bg-warning text-dark">Add to cart</button>
+						</div>
+					</div>
+				</div><br>
+        <div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="img/project-2.jpg"></div>
+							<h3 class="card-title">jenika</h3>
+							<p class="lead"><img src="images/img19.jpg" alt="hj"></p><video  controls 
+                            src="video/video.mp4" alt="po"></video><br><button class="btn bg-warning text-dark">Add to cart</button>
+						</div>
+					</div>
+				</div><br>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="img/project-3.jpg"></div>
+							<h3 class="card-title">Sidamo</h3>
+							<p class="lead"> <img src="images/img19.jpg" alt="ku"></p><video  controls 
+                            src="video/video.mp4" alt="po"></video><br><button class="btn bg-warning text-dark">Add to cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><br>
+	
    
-<---->
     
-
-    <div class="container">
-       
-
-        <div class="box">
-            <img src="images/img6.jpg" alt="me">
-            <h3>
-                <font color="#ffffff">
-                Yirga cheffe
-                </font>
-            </h3>
-            
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <img src="images/img7.jpg" alt="yu">
-            <h3>
-                <font color="#ffffff">
-                harar
-                </font>
-            </h3>
-            
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <img src="images/img8.jpg" alt="ji">
-            <h3>
-                <font color="#ffffff">
-                Limu
-                </font>
-            </h3>
-           
-            <a href="#" class="btn">add to cart</a>
-           
-        </div>
-
-        <div class="box">
-            <img src="images/img9.jpg" alt="hj">
-            <h3>
-                <font color="#ffffff">
-                Guji
-                </font>
-            </h3>
-            
-            <a href="#" class="btn">add to cart</a>
-            <br>
-            <br>
-            <video  controls 
-               src="video/video.mp4" alt="po"> </video>
-           
-        </div>
-
-        <div class="box">
-            <img src="images/img19.jpg" alt="ku">
-            <h3>
-                <font color="#ffffff">
-                Genika
-                </font>
-            </h3>
-            
-            <a href="#" class="btn">add to cart</a>
-            <br>
-            <br>
-            <video  controls src="video/video.mp4" alt="lok" ></video>
-        </div>
-
-        <div class="box">
-            <img src="images/yona.jpg" alt="er">
-            
-            <h3>
-                <font color="#ffffff">
-                Sidamo
-                </font>
-            </h3>
-            <a href="#" class="btn">add to cart</a>
-            <br>
-            <br>
-            <video  controls src="video/video.mp4"  alt="rok"></video>
-
-        </div>
-
-    </div>
-
-</section>
-
-
 <!-- product-->
 
 <section class="products" id="products">
-
-    <h1 class="heading">  <span>products</span> </h1>
-
     <div class="container">
-
-        <div class="box">
-            <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <div class="image">
-                <img src="images/img14.jpg" alt="tr">
-            </div>
-            <div class="page">
-                <h3>fresh coffee</h3> 
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Our products</h2>
                 </div>
-                <div class="price">200 birr</div>
             </div>
         </div>
-
-        <div class="box">
-            <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <div class="image">
-                <img src="images/img15.jpg" alt="qw">
-            </div>
-            <div class="page">
-                <h3>fresh coffee</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <i class="bi bi-laptop"></i>
+                        <h3 class="card-title">Best Quality</h3>
+                        <p class="lead"> <img src="images/img14.jpg" alt="tr"><h3>fresh coffee</h3></p><div class="price">200 birr</div>
+                    </div>
                 </div>
-                <div class="price">150 birr</div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <i class="bi bi-journal"></i>
+                        <h3 class="card-title">Best Quality</h3>
+                        <p class="lead"><img src="images/img15.jpg" alt="qw"><h3>fresh coffee</h3></p><div class="price">150 birr</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <i class="bi bi-intersect"></i>
+                        <h3 class="card-title">Best Quality</h3>
+                        <p class="lead"> <img src="images/img16.jpg" alt="jy"><h3>fresh coffee</h3></p><div class="price">100 birr</div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="box">
-            <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <div class="image">
-                <img src="images/img16.jpg" alt="jy">
-            </div>
-            <div class="page">
-                <h3>fresh coffee</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <div class="price">100 birr</div>
-            </div>
-        </div>
-
     </div>
-
-</section>
-
-<!-- review -->
-
+</section><br>
 <section class="review" id="review">
-
-    <h1 class="heading"> customer's <span>review</span> </h1>
-
-    <div class="container">
-
-        <div class="box">
-            <audio controls src="audio/aa.mp3" alt="bok"></audio>
-            <p>This place is amezing! they offered the best coffee and showed the best attitude to its costumers.
-                This place is indeed perfect for studying and chilling out.
-                I just want to keep coming back to this place.
-            </p>
-            <img src="images/img22.jpg" class="user" alt="jh">
-            <h3>Girma</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-
-        <div class="box">
-            <audio controls src="audio/aa.mp3" alt="monk"></audio>
+    <section class="services section-padding" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Cutomer Review</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-white text-center bg-dark pb-2">
+						<div class="card-body">
+							<i class="bi bi-laptop"></i>
+							<h3 class="card-title">customer suggestion</h3>
+							<p class="lead"> <audio controls src="audio/aa.mp3" alt="bok"></audio>
+                <p>This place is amezing! they offered the best coffee and showed the best attitude to its costumers.
+                    This place is indeed perfect for studying and chilling out.
+                    I just want to keep coming back to this place.
+                </p><h3 class="bg-warming">Girma</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-white text-center bg-dark pb-2">
+						<div class="card-body">
+              
+							<i class="bi bi-journal"></i>
+							<h3 class="card-title">cutomer suggestion</h3>
+							<p class="lead"> <audio controls src="audio/aa.mp3" alt="monk"></audio>
             
 
-            <p>This coffee shop is my favorite place to hang and do my work. <br>i really like this place because it has a good ambiance and not too crowded as well. 
-                coffee and pastries they had were so delicious.</p>
-            <img src="images/img21.jpg" class="user" alt="lu">
-            <h3>abel</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-        
-        <div class="box">
-            <audio controls src="audio/aa.mp3" alt="nok"></audio>
+                <p>This coffee shop is my favorite place to hang and do my work. i really like this place because it has a good ambiance and not too crowded as well. 
+                    coffee and pastries they had were so delicious.</p><h3 class="bg-warming">Abel</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-white text-center bg-dark pb-2">
+						<div class="card-body">
+							<i class="bi bi-intersect"></i>
+							<h3 class="card-title">cutomer suggestion</h3>
+							<p class="lead"> <audio controls src="audio/aa.mp3" alt="nok"></audio>
 
-            <p>This place is different and well organized relative to other shopping places. music of your choice. The owner is good. and also the cost is fair with good atmosphere.
-                <br>So, i love this place! </p>
-            <img src="images/img20.jpg" class="user" alt="">
-            <h3>sifen</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-
-    </div>
-
-</section>
+                <p>This place is different and well organized relative to other shopping places. music of your choice. The owner is good. and also the cost is fair with good atmosphere.
+                    So, i love this place! </p><h3 class="bg-warming">Sifen</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
-
-<!--contact--> 
-<!--
 <section class="contact" id="contact">
 
-<h1 class="heading"> <span>contact</span>  </h1>
+<h1 class="heading text-center"> <span>contact</span>  </h1>
 
 <div class="rows">
 
--->     
 
-<section class="contact" id="contact">
+ 
+    <form id="form" class="d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex gap-3">
+          <section class="d-flex flex-column justify-content-center gap-2">
+            <section class="form-floating">
+              <input required class="pe-5 form-control"
+                id="name"
+                type="text"
+                placeholder="Name"/>
+              <label class="form-label" for="name">Name: </label>
+            </section>
 
-    <h1 class="heading"> <span>contact</span>  </h1>
+            <section class="form-floating">
+              <input
+                class="pe-5 form-control"
+                required
+                class="sectionone__input"
+                id="email"
+                type="email"
+                placeholder="yonassisay56@gmail.com"/>
+              <label class="form-label" for="email">Email: </label>
+            </section>
 
-    <div class="container">
-        <form id="form" action="/">
-            <h2>Get in touch</h2>
-            <div class="input-control">
-                <label for="username">Username</label>
-                <input id="username" name="username" type="text">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="text">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="number">number</label>
-                <input id="number"name="number" type="number">
-                <div class="error"></div>
-            </div>
-            <button type="contact">contact now</button>
-        </form>
-    </div>
-</section>
-
-
-
-
-
+            <section class="form-floating">
+              <input
+                class="pe-5 form-control"
+                class="sectionone__input"
+                id="phone"
+                type="text"
+                placeholder="Phone"/>
+              <label class="form-label" for="phone">Phone: </label>
+            </section>
+          </div>
+          <button
+          class="btn btn-dark p-2 mt-5 bg-black"
+          style="width: 200px; font-size: 20px"
+          type="submit">
+          Send Message
+        </button>
+     
+  </form>
+          
 <!-- blogs -->
-
-<section class="blog" id="blogs">
-
-    <h1 class="heading"> our <span>blogs</span> </h1>
-
-    <div class="box-container">
-
-        <div class="boxer">
-            <div class="images">
-                <img src="images/img2.jpg" alt="bg">
-            </div>
-            <div class="page">
-                <a href="#" class="coffee">tasty and refreshing coffee</a>
-                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                <a href="#" class="btn">read more</a>
+<section class="services section-padding" id="blogs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                  <br>  <h2>Our blogs</h2>
+                </div>
             </div>
         </div>
-
-        <div class="boxer">
-            <div class="images">
-                <img src="images/img4.jpg" alt="lp">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-laptop"></i>
+                    
+                        <p class="lead">  <img src="images/img3.jpg" alt="mj">
+                            <h3>tasty and refreshing coffee</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                            <a href="#" class="btn btn-warning">read more</a>
+                    </div>
+                </div>
             </div>
-            <div class="page">
-                <a href="#" class="coffee">tasty and refreshing coffee</a>
-                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                <a href="#" class="btn">read more</a>
+
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+          
+                        <i class="bi bi-journal"></i>
+                        
+                        <p class="lead"> <img src="images/img4.jpg" alt="lp">
+                            <h3>tasty and refreshing coffee</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,<br> dicta.</p>
+                            <a href="#" class="btn btn-warning">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-intersect"></i>
+                        
+                        <p class="lead">  <img src="images/img2.jpg" alt="bg">
+                            <h3>tasty and refreshing coffee</h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                            <a href="#" class="btn btn-warning">read more</a>
+                </div>
             </div>
         </div>
-
-        <div class="boxer">
-            <div class="images">
-                <img src="images/img3.jpg" alt="mj">
-            </div>
-            <div class="page">
-                <a href="#" class="coffee">tasty and refreshing coffee</a>
-               
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-        </div>
-
     </div>
-
-</section>
-
-
+</section><br>
 
 <!-- footer  -->
 
-<section class="footers">
+<div>
+    <ul class="list-unstyled d-flex justify-content-evenly ml-0 bg-dark">
+      <li><a href="#" style="font-size: 2rem;"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#" style="font-size: 2rem;"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#" style="font-size: 2rem;"><i class="fab fa-instagram"></i></i></a></li>
+      <li><a href="#" style="font-size: 2rem;"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+  </div>
+  <div class="bg-light">
+    <ul class="list-unstyled d-flex justify-content-evenly ml- bg-dark text-center">
+        <li><a href="#" style="font-size: 1.5rem;" class="text-light">Home</a></li>
+        <li><a href="#" style="font-size: 1.5rem;" class="text-light">About</a></li>
+        <li><a href="#" style="font-size: 1.5rem;" class="text-light">Menu</i></a></li> 
+        <li><a href="#" style="font-size: 1.5rem;" class="text-light">Product</a></li>
+        <li><a href="#" style="font-size: 1.5rem;" class="text-light">Review</a></li>
+        <li><a href="#" style="font-size: 1.5rem;" class="text-light">Contact</i></a></li>
+        <li><a href="#" style="font-size: 1.5rem;" class="text-light">Blogs</a></li>
+    </ul>
+   
+  </div>
 
-    <div class="foot">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-       
-    </div>
-
-    <div class="gangaw">
-        <a href="#">
-            <font face="arial" size="4">
-            home
-            </font>
-        </a>
-        <a href="#">
-            <font face="arial" size="4">
-            about
-            </font>
-        </a>
-        <a href="#">
-            <font face="arial" size="4">
-            menu
-            </font>
-        </a>
-        <a href="#">
-            <font face="arial" size="4">
-            products
-            </font>
-        </a>
-        <a href="#">
-            <font face="arial" size="4">
-            review
-            </font>
-        </a>
-        <a href="#">
-            <font face="arial" size="4">
-            contact
-            </font>
-        </a>
-        <a href="#">
-            <font face="arial" size="4">
-            blogs
-            </font>
-        </a>
-    </div>
-</section>
-
-
-
-<script src="index.js"></script>
-
-
-
+  <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+  <script src="val.js"></script>
 </body>
 </html>
 
